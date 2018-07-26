@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+      |-----handy-ruler------------------------------------------------------|
+aspcud: aspcud (A solver for package problems in CUDF format using ASP)
+aspcud:
+aspcud: The aspcud project provides the converter/preprocessor cudf2lp to 
+aspcud: translate a CUDF specification into a set of facts. These facts
+aspcud: together with an encoding can then be passed to an ASP grounder and
+aspcud: solver to solve the package problem. The small C program aspcud takes
+aspcud: care of this, calling the necessary tools and printing the result in
+aspcud: CUDF format.
+aspcud:
+aspcud: https://potassco.org/aspcud/
+aspcud:
