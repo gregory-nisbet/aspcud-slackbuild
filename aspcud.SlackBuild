@@ -61,9 +61,6 @@ rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
 rm -rf $PRGNAM-$VERSION
-# source tarball is named "v1.9.4.tar.gz"
-# instead of "aspcud-1.9.4-source.tar.gz"
-# however, the outermost directory is named "aspcud-1.9.4"
 tar xvf $CWD/v$VERSION.tar.gz
 cd $PRGNAM-$VERSION
 chown -R root:root .
